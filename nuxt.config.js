@@ -3,9 +3,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    // titleTemplate: '%s - eakoriakin.dev',
+    // titleTemplate: '%s - Ionic Selectable docs',
     titleTemplate: '%s',
-    title: 'eakoriakin.dev',
+    title: 'Ionic Selectable docs',
     htmlAttrs: {
       lang: 'en',
     },

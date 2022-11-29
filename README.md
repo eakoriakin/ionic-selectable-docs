@@ -1,4 +1,4 @@
-# eakoriakin.dev
+# Ionic Selectable docs
 
 ## Setup
 
