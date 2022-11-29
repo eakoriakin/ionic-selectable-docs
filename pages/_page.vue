@@ -1,5 +1,5 @@
 <script>
-import { IONIC_SELECTABLE_PAGES_METADATA } from '~/models/ionic-selectable-pages-metadata.const';
+import { PAGES_METADATA } from '~/models/pages-metadata.const';
 
 export default {
   data() {
@@ -16,23 +16,23 @@ export default {
     const pageId = this.getPageId();
     this.content = await this.loadPage(pageId);
     this.metadata = this.getPageMetadata(pageId);
-    this.pageUrl = this.$ionicSelectablePagesClient.getPageUrl(pageId);
+    this.pageUrl = this.$pageClient.getPageUrl(pageId);
   },
   async mounted() {
     const pageId = this.getPageId();
     this.content = this.content ?? (await this.loadPage(pageId));
     this.metadata = this.metadata ?? this.getPageMetadata(pageId);
-    this.pageUrl = this.pageUrl ?? this.$ionicSelectablePagesClient.getPageUrl(pageId);
+    this.pageUrl = this.pageUrl ?? this.$pageClient.getPageUrl(pageId);
   },
   methods: {
     getPageId() {
-      return this.$route.path?.split('/')[2];
+      return this.$route.path?.split('/')[1];
     },
     getPageMetadata(pageId) {
-      return IONIC_SELECTABLE_PAGES_METADATA.find((pageMetadata) => pageMetadata.id === pageId);
+      return PAGES_METADATA.find((pageMetadata) => pageMetadata.id === pageId);
     },
     loadPage(pageId) {
-      return this.$ionicSelectablePagesClient.getPage(pageId);
+      return this.$pageClient.getPage(pageId);
     },
   },
 };

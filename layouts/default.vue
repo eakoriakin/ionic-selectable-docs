@@ -1,52 +1,27 @@
 <script>
-import { PROJECTS_NAV } from '~/models/projects-nav.const';
-import { ProjectId } from '~/models/project-id.enum';
+import { SIDE_MENU_GROUPS } from '~/models/side-menu-groups.const';
 
 export default {
   name: 'DefaultLayout',
   data() {
     return {
       isMenuOpen: null,
-      projects: [
-        { id: ProjectId.Home, title: 'Home', path: '/', icon: 'mdi-view-dashboard', isRotated: false },
-        {
-          id: ProjectId.AngularQuickForms,
-          title: 'Angular Quick Forms',
-          path: '/angular-quick-forms',
-          icon: 'mdi-angularjs',
-          isRotated: false,
-        },
-        {
-          id: ProjectId.IonicSelectable,
-          title: 'Ionic Selectable',
-          path: '/ionic-selectable',
-          icon: 'mdi-orbit',
-          isRotated: true,
-        },
-      ],
+      project: {
+        title: 'Ionic Selectable',
+        subtitle: 'An Ionic Component',
+        icon: 'https://avatars.githubusercontent.com/u/61024758?v=4',
+      },
     };
   },
   computed: {
-    currentProject() {
-      const projectId = this.getCurrentProjectId();
-      return this.projects.find((project) => project.id === projectId);
-    },
     sideMenuGroups() {
-      return PROJECTS_NAV[this.getCurrentProjectId()].groups;
-    },
-    sideMenuMainItem() {
-      return PROJECTS_NAV[this.getCurrentProjectId()].mainItem;
+      return SIDE_MENU_GROUPS;
     },
   },
   mounted() {
     setTimeout(() => {
       this.$scrollService.scrollElementIntoView(document.getElementById(this.$route.path), false);
     }, 100);
-  },
-  methods: {
-    getCurrentProjectId() {
-      return this.$route.path?.split('/')[1];
-    },
   },
 };
 </script>
@@ -55,13 +30,13 @@ export default {
   <v-app>
     <v-navigation-drawer v-model="isMenuOpen" app>
       <template #prepend>
-        <v-list-item v-if="sideMenuMainItem" two-line>
+        <v-list-item two-line>
           <v-list-item-avatar>
-            <img :src="sideMenuMainItem.icon" />
+            <img :src="project.icon" />
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title>{{ sideMenuMainItem.title }}</v-list-item-title>
-            <v-list-item-subtitle>{{ sideMenuMainItem.subtitle }}</v-list-item-subtitle>
+            <v-list-item-title>{{ project.title }}</v-list-item-title>
+            <v-list-item-subtitle>{{ project.subtitle }}</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
         <v-divider></v-divider>
@@ -97,23 +72,7 @@ export default {
     </v-navigation-drawer>
     <v-app-bar dense app>
       <v-app-bar-nav-icon @click="isMenuOpen = !isMenuOpen" />
-      <v-menu offset-y>
-        <template #activator="{ on, attrs }">
-          <v-btn text v-bind="attrs" v-on="on">
-            <v-icon :class="{ 'u-rotate--90deg': currentProject?.isRotated }" left>{{ currentProject?.icon }}</v-icon>
-            {{ currentProject?.title }}
-            <v-icon right>mdi-menu-down</v-icon>
-          </v-btn>
-        </template>
-        <v-list>
-          <v-list-item v-for="project in projects" :key="project.path" :to="project.path" :nuxt="true" router>
-            <v-list-item-icon>
-              <v-icon :class="{ 'u-rotate--90deg': project.isRotated }">{{ project.icon }}</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>{{ project.title }}</v-list-item-title>
-          </v-list-item>
-        </v-list>
-      </v-menu>
+      <v-toolbar-title>{{ project.title }}</v-toolbar-title>
       <v-spacer />
     </v-app-bar>
     <v-main>

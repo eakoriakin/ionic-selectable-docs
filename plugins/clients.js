@@ -1,6 +1,6 @@
-import { IonicSelectablePagesClient } from '~/api/clients/ionic-selectable-pages.client';
+import { PageClient } from '~/api/clients/page.client';
 
 export default ({ $axios }, inject) => {
-  const ionicSelectablePagesClient = new IonicSelectablePagesClient($axios);
-  inject('ionicSelectablePagesClient', ionicSelectablePagesClient);
+  const pageClient = new PageClient($axios);
+  inject('pageClient', pageClient);
 };

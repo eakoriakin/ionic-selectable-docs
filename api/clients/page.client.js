@@ -1,4 +1,4 @@
-export class IonicSelectablePagesClient {
+export class PageClient {
   constructor(axios) {
     this.axios = axios;
   }

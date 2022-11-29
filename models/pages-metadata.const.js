@@ -1,4 +1,4 @@
-function createPageMetadata({ id, stackBlitzId, examples, title, description }) {
+function createPageMetadata({ id, examples, title, description }) {
   return {
     id,
     examples,
@@ -15,7 +15,7 @@ function createPageMetadata({ id, stackBlitzId, examples, title, description }) 
   };
 }
 
-export const IONIC_SELECTABLE_PAGES_METADATA = [
+export const PAGES_METADATA = [
   // Introduction.
   createPageMetadata({
     id: 'about',
