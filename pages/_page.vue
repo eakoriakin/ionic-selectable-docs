@@ -7,7 +7,7 @@ export default {
       content: null,
       metadata: null,
       pageUrl: null,
-      // isLoading: false,
+      isLoading: false,
     };
   },
   head() {
@@ -23,9 +23,9 @@ export default {
     const pageId = this.getPageId();
 
     if (!this.content) {
-      // this.isLoading = true;
+      this.isLoading = true;
       this.content = await this.loadPage(pageId);
-      // this.isLoading = false;
+      this.isLoading = false;
     }
 
     this.metadata = this.metadata ?? this.getPageMetadata(pageId);
