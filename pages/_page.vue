@@ -7,6 +7,7 @@ export default {
       content: null,
       metadata: null,
       pageUrl: null,
+      // isLoading: false,
     };
   },
   head() {
@@ -20,7 +21,13 @@ export default {
   },
   async mounted() {
     const pageId = this.getPageId();
-    this.content = this.content ?? (await this.loadPage(pageId));
+
+    if (!this.content) {
+      // this.isLoading = true;
+      this.content = await this.loadPage(pageId);
+      // this.isLoading = false;
+    }
+
     this.metadata = this.metadata ?? this.getPageMetadata(pageId);
     this.pageUrl = this.pageUrl ?? this.$pageClient.getPageUrl(pageId);
   },
@@ -40,6 +47,7 @@ export default {
 
 <template>
   <div class="mt-4">
+    <!-- <AppPageSkeletonLoader v-if="isLoading"></AppPageSkeletonLoader> -->
     <AppShowdown :markdown="content ?? ''"></AppShowdown>
     <template v-if="metadata?.examples">
       <div v-for="example in metadata.examples" :key="example.id">
@@ -47,7 +55,7 @@ export default {
         <AppStackBlitz :src="example.url"></AppStackBlitz>
       </div>
     </template>
-    <div class="mt-10">
+    <div v-if="!isLoading" class="mt-10">
       <AppGitHubPageLink :url="pageUrl"></AppGitHubPageLink>
     </div>
   </div>
