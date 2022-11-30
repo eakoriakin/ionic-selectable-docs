@@ -56,7 +56,7 @@ export default {
       </div>
     </template>
     <div v-if="!isLoading" class="mt-10">
-      <AppGitHubPageLink :url="pageUrl"> </AppGitHubPageLink>
+      <AppGitHubPageLink :url="pageUrl"></AppGitHubPageLink>
     </div>
   </div>
 </template>
