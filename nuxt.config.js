@@ -2,6 +2,9 @@
 
 export default {
   target: 'static',
+  router: {
+    base: '/ionic-selectable-docs/',
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     // titleTemplate: '%s - Ionic Selectable docs',
@@ -16,8 +19,8 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: [{ src: '/heapanalytics.js' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/ionic-selectable-docs/favicon.ico' }],
+    script: [{ src: '/ionic-selectable-docs/heapanalytics.js' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
