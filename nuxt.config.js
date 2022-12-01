@@ -3,7 +3,13 @@
 export default {
   target: 'static',
   router: {
-    base: '/ionic-selectable-docs/',
+    base: '/ionic-selectable-docs',
+    trailingSlash: false,
+  },
+  // This is to disable 301 redirects from a URL without a trailing slash to a URL with a trailing slash.
+  // See https://github.com/nuxt/nuxt.js/issues/8350.
+  generate: {
+    subFolders: false,
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
