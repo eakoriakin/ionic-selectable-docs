@@ -1,8 +1,8 @@
 export const state = () => ({
   items: [
-    { name: 'Home', path: '/' },
-    { name: 'Angular Quick Forms', path: '/angular-quick-forms' },
-    { name: 'Ionic Selectable', path: '/ionic-selectable' },
+    // { name: 'Home', path: '/' },
+    // { name: 'Angular Quick Forms', path: '/angular-quick-forms' },
+    // { name: 'Ionic Selectable', path: '/ionic-selectable' },
   ],
 });
 
