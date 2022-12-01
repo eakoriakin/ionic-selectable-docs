@@ -19,7 +19,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/ionic-selectable-docs/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/ionic-selectable-docs/ionic-icon-16x16.png' }],
     script: [{ src: '/ionic-selectable-docs/heapanalytics.js' }],
   },
 
