@@ -26,7 +26,14 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/ionic-icon-16x16.png' }],
-    script: [{ src: '/heapanalytics.js' }],
+    script: [
+      { src: '/heapanalytics.js' },
+      {
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4284228988012283',
+        async: true,
+        crossorigin: 'anonymous',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
