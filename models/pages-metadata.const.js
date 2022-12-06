@@ -761,7 +761,7 @@ export const PAGES_METADATA = [
   // Methods.
   createPageMetadata({
     id: 'add-item-method',
-    title: 'additem() method',
+    title: 'addItem() method',
     examples: [
       {
         url: 'https://stackblitz.com/edit/ionic-selectable-v4-editing?embed=1&file=app/pages/home/home.html',
@@ -789,7 +789,7 @@ export const PAGES_METADATA = [
   }),
   createPageMetadata({
     id: 'delete-item-method',
-    title: 'deleteitem() method',
+    title: 'deleteItem() method',
     examples: [
       {
         url: 'https://stackblitz.com/edit/ionic-selectable-v4-editing?embed=1&file=app/pages/home/home.html',
@@ -799,7 +799,7 @@ export const PAGES_METADATA = [
   }),
   createPageMetadata({
     id: 'disable-infinite-scroll-method',
-    title: 'disableinfinitescroll() method',
+    title: 'disableInfiniteScroll() method',
     examples: [
       {
         url: 'https://stackblitz.com/edit/ionic-selectable-v4-infinite-scroll?embed=1&file=app/pages/home/home.html',
@@ -809,7 +809,7 @@ export const PAGES_METADATA = [
   }),
   createPageMetadata({
     id: 'enable-infinite-scroll-method',
-    title: 'enableinfinitescroll() method',
+    title: 'enableInfiniteScroll() method',
     examples: [
       {
         url: 'https://stackblitz.com/edit/ionic-selectable-v4-infinite-scroll?embed=1&file=app/pages/home/home.html',
@@ -819,7 +819,7 @@ export const PAGES_METADATA = [
   }),
   createPageMetadata({
     id: 'end-infinite-scroll-method',
-    title: 'endinfinitescroll() method',
+    title: 'endInfiniteScroll() method',
     examples: [
       {
         url: 'https://stackblitz.com/edit/ionic-selectable-v4-infinite-scroll?embed=1&file=app/pages/home/home.html',
@@ -829,7 +829,7 @@ export const PAGES_METADATA = [
   }),
   createPageMetadata({
     id: 'end-search-method',
-    title: 'endsearch() method',
+    title: 'endSearch() method',
     examples: [
       {
         url: 'https://stackblitz.com/edit/ionic-selectable-v4-on-search-event?embed=1&file=app/pages/home/home.html',
@@ -839,15 +839,15 @@ export const PAGES_METADATA = [
   }),
   createPageMetadata({
     id: 'has-value-method',
-    title: 'hasvalue() method',
+    title: 'hasValue() method',
   }),
   createPageMetadata({
     id: 'hide-add-item-template-method',
-    title: 'hideadditemtemplate() method',
+    title: 'hideAddItemTemplate() method',
   }),
   createPageMetadata({
     id: 'hide-loading-method',
-    title: 'hideloading() method',
+    title: 'hideLoading() method',
   }),
   createPageMetadata({
     id: 'open-method',
@@ -859,11 +859,11 @@ export const PAGES_METADATA = [
   }),
   createPageMetadata({
     id: 'scroll-to-bottom-method',
-    title: 'scrolltobottom() method',
+    title: 'scrollToBottom() method',
   }),
   createPageMetadata({
     id: 'scroll-to-top-method',
-    title: 'scrolltotop() method',
+    title: 'scrollToTop() method',
     examples: [
       {
         url: 'https://stackblitz.com/edit/ionic-selectable-v4-scroll-to-top-method?embed=1&file=app/pages/home/home.html',
@@ -873,15 +873,15 @@ export const PAGES_METADATA = [
   }),
   createPageMetadata({
     id: 'show-add-item-template-method',
-    title: 'showadditemtemplate() method',
+    title: 'showAddItemTemplate() method',
   }),
   createPageMetadata({
     id: 'show-loading-method',
-    title: 'showloading() method',
+    title: 'showLoading() method',
   }),
   createPageMetadata({
     id: 'start-search-method',
-    title: 'startsearch() method',
+    title: 'startSearch() method',
     examples: [
       {
         url: 'https://stackblitz.com/edit/ionic-selectable-v4-on-search-event?embed=1&file=app/pages/home/home.html',
@@ -891,7 +891,7 @@ export const PAGES_METADATA = [
   }),
   createPageMetadata({
     id: 'toggle-items-method',
-    title: 'toggleitems() method',
+    title: 'toggleItems() method',
     examples: [
       {
         url: 'https://stackblitz.com/edit/ionic-selectable-v4-footer-template?embed=1&file=app/pages/home/home.html',
