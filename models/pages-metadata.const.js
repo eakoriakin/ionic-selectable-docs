@@ -19,7 +19,7 @@ export const PAGES_METADATA = [
   // Introduction.
   createPageMetadata({
     id: 'about',
-    title: 'about Ionic Selectable',
+    title: 'about',
     examples: [
       {
         url: 'https://stackblitz.com/edit/ionic-selectable-v4-basic-usage?embed=1&file=app/pages/home/home.html',
