@@ -77,3 +77,9 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+## GitHub Pages deployment
+
+1. `npm run generate`
+2. `npm run deploy`
+3. Set custom domain to `ionic-selectable.net` in [GitHub Custom domain settings](https://github.com/eakoriakin/ionic-selectable-docs/settings/pages).
