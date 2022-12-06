@@ -3,7 +3,7 @@
 export default {
   target: 'static',
   router: {
-    base: '/ionic-selectable-docs',
+    // base: '/ionic-selectable-docs',
     trailingSlash: false,
   },
   // This is to disable 301 redirects from a URL without a trailing slash to a URL with a trailing slash.
@@ -25,8 +25,8 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/ionic-selectable-docs/ionic-icon-16x16.png' }],
-    script: [{ src: '/ionic-selectable-docs/heapanalytics.js' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/ionic-icon-16x16.png' }],
+    script: [{ src: '/heapanalytics.js' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

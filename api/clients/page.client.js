@@ -8,7 +8,7 @@ export class PageClient {
       // We cannot request files directly from GitHub because of CORS limitation.
       // Preflight OPTIONS request to GitHub always returns 403 error preventing a file from loading.
       // `https://raw.githubusercontent.com/eakoriakin/ionic-selectable-pages/main/pages/${pageName}.md`
-      `https://unpkg.com/ionic-selectable-pages/pages/${pageName}.md`
+      `https://unpkg.com/ionic-selectable-pages@latest/pages/${pageName}.md`
     );
   }
 
