@@ -80,9 +80,11 @@ export default {
         <Nuxt />
       </v-container>
     </v-main>
-    <!-- <v-footer :absolute="!fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer> -->
+    <v-footer>
+      <v-row justify="center" no-gutters>
+        <v-btn class="px-0" text small plain href="/privacy-policy">Privacy policy</v-btn>
+      </v-row>
+    </v-footer>
   </v-app>
 </template>
 
