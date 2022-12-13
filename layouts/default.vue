@@ -83,6 +83,9 @@ export default {
     <v-footer>
       <v-row justify="center" no-gutters>
         <v-btn class="px-0" text small plain href="/privacy-policy">Privacy policy</v-btn>
+        <v-col class="text-center text-body-2" cols="12">
+          &copy; {{ new Date().getFullYear() }} {{ project.title }}
+        </v-col>
       </v-row>
     </v-footer>
   </v-app>
