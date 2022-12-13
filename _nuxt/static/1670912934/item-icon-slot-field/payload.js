@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/item-icon-slot-field", {data:[{}],fetch:{},mutations:[]});

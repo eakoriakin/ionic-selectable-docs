@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/customizing-footer-buttons", {data:[{}],fetch:{},mutations:[]});

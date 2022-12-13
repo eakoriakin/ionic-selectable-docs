@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/form-array", {data:[{}],fetch:{},mutations:[]});

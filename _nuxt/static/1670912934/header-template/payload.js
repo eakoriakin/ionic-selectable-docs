@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/header-template", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/editing-adding-editing-and-deleting-items", {data:[{}],fetch:{},mutations:[]});

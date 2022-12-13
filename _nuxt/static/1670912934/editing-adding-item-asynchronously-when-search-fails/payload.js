@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/editing-adding-item-asynchronously-when-search-fails", {data:[{}],fetch:{},mutations:[]});

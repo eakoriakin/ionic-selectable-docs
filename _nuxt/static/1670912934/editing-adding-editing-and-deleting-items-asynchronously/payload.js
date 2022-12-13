@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/editing-adding-editing-and-deleting-items-asynchronously", {data:[{}],fetch:{},mutations:[]});

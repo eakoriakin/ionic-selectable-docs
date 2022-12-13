@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/modal-css-class-field", {data:[{}],fetch:{},mutations:[]});

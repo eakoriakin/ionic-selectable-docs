@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/on-save-item-event", {data:[{}],fetch:{},mutations:[]});

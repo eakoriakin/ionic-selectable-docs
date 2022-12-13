@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/close-button-text-field", {data:[{}],fetch:{},mutations:[]});

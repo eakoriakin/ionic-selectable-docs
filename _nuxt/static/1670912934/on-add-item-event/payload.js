@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/on-add-item-event", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/show-add-item-template-method", {data:[{}],fetch:{},mutations:[]});

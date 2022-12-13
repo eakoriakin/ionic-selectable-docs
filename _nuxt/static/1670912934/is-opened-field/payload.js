@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/is-opened-field", {data:[{}],fetch:{},mutations:[]});

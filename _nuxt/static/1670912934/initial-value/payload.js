@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/initial-value", {data:[{}],fetch:{},mutations:[]});

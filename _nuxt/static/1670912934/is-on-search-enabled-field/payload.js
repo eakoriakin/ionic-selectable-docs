@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/is-on-search-enabled-field", {data:[{}],fetch:{},mutations:[]});

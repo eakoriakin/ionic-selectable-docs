@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/can-search-field", {data:[{}],fetch:{},mutations:[]});

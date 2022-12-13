@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/should-store-item-value-field", {data:[{}],fetch:{},mutations:[]});

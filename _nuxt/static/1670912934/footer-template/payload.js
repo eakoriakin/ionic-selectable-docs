@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/footer-template", {data:[{}],fetch:{},mutations:[]});

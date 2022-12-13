@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/show-loading-method", {data:[{}],fetch:{},mutations:[]});

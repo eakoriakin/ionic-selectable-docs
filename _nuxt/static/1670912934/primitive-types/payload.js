@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/primitive-types", {data:[{}],fetch:{},mutations:[]});

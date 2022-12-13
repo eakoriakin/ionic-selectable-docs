@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/end-search-method", {data:[{}],fetch:{},mutations:[]});

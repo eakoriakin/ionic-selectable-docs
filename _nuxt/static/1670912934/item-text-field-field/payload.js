@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/item-text-field-field", {data:[{}],fetch:{},mutations:[]});

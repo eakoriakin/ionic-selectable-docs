@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/item-icon-template", {data:[{}],fetch:{},mutations:[]});

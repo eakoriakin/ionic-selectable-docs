@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/has-confirm-button-field", {data:[{}],fetch:{},mutations:[]});

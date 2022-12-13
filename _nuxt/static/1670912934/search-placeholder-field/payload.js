@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/search-placeholder-field", {data:[{}],fetch:{},mutations:[]});

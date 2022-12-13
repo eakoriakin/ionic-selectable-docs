@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/value-template", {data:[{}],fetch:{},mutations:[]});

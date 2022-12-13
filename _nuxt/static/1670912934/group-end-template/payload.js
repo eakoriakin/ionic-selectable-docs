@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/group-end-template", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/group-text-field-field", {data:[{}],fetch:{},mutations:[]});

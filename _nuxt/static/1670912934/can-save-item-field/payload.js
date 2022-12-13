@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/can-save-item-field", {data:[{}],fetch:{},mutations:[]});

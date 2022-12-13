@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/enable-infinite-scroll-method", {data:[{}],fetch:{},mutations:[]});

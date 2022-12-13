@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/min-max-selection", {data:[{}],fetch:{},mutations:[]});

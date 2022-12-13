@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/close-button-slot-field", {data:[{}],fetch:{},mutations:[]});

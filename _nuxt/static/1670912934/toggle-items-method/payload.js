@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/toggle-items-method", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/can-delete-item-field", {data:[{}],fetch:{},mutations:[]});

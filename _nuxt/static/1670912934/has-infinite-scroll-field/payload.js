@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/has-infinite-scroll-field", {data:[{}],fetch:{},mutations:[]});

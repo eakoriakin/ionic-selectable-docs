@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/on-select-event", {data:[{}],fetch:{},mutations:[]});

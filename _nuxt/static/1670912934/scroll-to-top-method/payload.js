@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/scroll-to-top-method", {data:[{}],fetch:{},mutations:[]});

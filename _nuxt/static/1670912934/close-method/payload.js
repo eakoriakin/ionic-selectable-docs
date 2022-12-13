@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/close-method", {data:[{}],fetch:{},mutations:[]});

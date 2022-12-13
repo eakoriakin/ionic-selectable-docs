@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/on-open-event", {data:[{}],fetch:{},mutations:[]});

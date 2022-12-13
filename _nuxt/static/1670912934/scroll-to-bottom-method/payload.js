@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/scroll-to-bottom-method", {data:[{}],fetch:{},mutations:[]});

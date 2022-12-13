@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/hide-loading-method", {data:[{}],fetch:{},mutations:[]});

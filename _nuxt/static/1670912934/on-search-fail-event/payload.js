@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/on-search-fail-event", {data:[{}],fetch:{},mutations:[]});

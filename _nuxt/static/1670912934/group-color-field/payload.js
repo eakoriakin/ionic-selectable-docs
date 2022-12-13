@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/group-color-field", {data:[{}],fetch:{},mutations:[]});

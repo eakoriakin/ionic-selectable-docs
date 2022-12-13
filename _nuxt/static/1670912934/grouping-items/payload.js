@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/grouping-items", {data:[{}],fetch:{},mutations:[]});

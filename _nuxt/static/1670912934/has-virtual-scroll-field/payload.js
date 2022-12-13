@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/has-virtual-scroll-field", {data:[{}],fetch:{},mutations:[]});

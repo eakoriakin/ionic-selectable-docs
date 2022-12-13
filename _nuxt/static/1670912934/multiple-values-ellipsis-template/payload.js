@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/multiple-values-ellipsis-template", {data:[{}],fetch:{},mutations:[]});
